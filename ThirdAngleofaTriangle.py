@@ -1,3 +1,4 @@
+#Este programa encuentra el angulo de un triangulo apartor de los otros
 def find_third_angle(angle1, angle2):
     # Calcular el tercer ángulo
     third_angle = 180 - (angle1 + angle2)

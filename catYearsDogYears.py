@@ -1,5 +1,6 @@
 #calcula la edad del perro y el gato en años humanos
- #programa que calcula la edad
+#programa que calcula la edad
+#
 def calculate_pet_ages(humanYears):
     #al primer año
     if humanYears == 1:
@@ -26,7 +27,7 @@ humanYears = int(input("Introduce los años humanos: "))
 result = calculate_pet_ages(humanYears)
 #print(result)
 
-print(f"Edad en años humanos: {result[0]}")
+print(f"Edad en años humanos: {result[0]}") #la f son una forma de concatenar
 print("Edad en años de gato: "+str(result[1]))# esta es otra forma en lugar de poner la F practicamente concatena 
 print(f"Edad en años de perro: {result[2]}")
 
